@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: cornsilk;
+    font-family: "Roboto";
+}
+
+.cabecalho {
+    background-image: url(/praca/topo.jpg);
+    height: 319px;
+}
+
+.titulo {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 319px;
+    color:black;
+    font-family: "Bungee Inline";
+}
+
+.container {
+    text-align: center;
+    background-image: linear-gradient(cornsilk, white);
+}
+
+.div_foto {
+    margin: 4px;
+    padding: 4px;
+    width: 300px;
+    display: inline-block; 
+    overflow: hidden; /* Para esconder partes da imagem que excedam as dimensões da div */
+}
+
+.div_foto img {
+    max-width: 100%; /* Define a largura máxima da imagem para 100% da largura da div */
+    aspect-ratio: 1/1; /* pra ela ficar quadradinha */
+    object-fit: cover; /* serve para ajustar o tamanho proporcional da imagem */
+}
+
+.foto_fig {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.maps {
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+}
+
+.footer {
+    background-color: white;
+    height: 200px;
+}
+
+.img_rodape {
+    margin: 0;
+    display: inline-block;
+}
+
+.img_rodape img {
+    margin: 0;
+    width: 200px;
+}
+
+.rodape {
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+}
+
+.endereco {
+    text-align: center;
+    margin: 6;
+    width: 300px;
+    display: inline-block;
+}
+
+.gif_footer {
+    width: 300px;
+    margin: 0;
+    display: grid;
+}
+
+.container_footer {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-image: linear-gradient(white, cornsilk);
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
