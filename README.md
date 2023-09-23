@@ -22,3 +22,10 @@ Foi pedido que com a página sobre o Marco Zero feita, é necessário de uma out
 2. adicione imagens sobre os lugares. 
 
 Finalizei mais essa atividade como o pedido e utilizando alguns ajustes a mais para deixar a página mais estilizada. 
+
+------
+
+Para visitar o Projeto acesso o Link Abaixo: 
+
+[Pontos Turísticos do Recife Antigo](https://nabylima.github.io/paginaDoPontoTuristicoMarcoZero/index.html)
+
