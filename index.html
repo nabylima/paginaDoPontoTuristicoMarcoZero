@@ -10,14 +10,18 @@
 
 <body>
     <header class="cabecalho">
-        <div>
-            <h1 class="titulo">Praça do Marco Zero</h1>
+        <div class="titulo">
+            <h1>Praça do Marco Zero</h1>
         </div>
-
+        <nav class="menu_cabecalho">
+            <a class="link_cabecalho" href="index.html">Praça do Marco Zero</a>
+            <a class="link_cabecalho" href="paco_do_frevo.html">Paço do Frevo</a>
+            <a class="link_cabecalho" href="capela_dourada.html">Capela Dourada</a>
+        </nav>
     </header>
-    <main>
-        <div>
-            <section>
+    <main class="main_conteudo">
+        <section class="section_conteudo">
+            <div>
                 <h2>O que fazer na Praça do Marco Zero</h2>
                 <p>A praça tem o nome original de Praça Barão do Rio Branco, todavia ficou conhecida como Praça do Marco
                     Zero pelo fato de que nela encontra-se o quilometro zero das estradas de Pernambuco. É formada por
@@ -45,8 +49,8 @@
                     outras obras em cerâmica do artista Francisco Brennand. No dique encontra-se também a Casa de
                     Banhos, que não existe mais, e o Farol do Recife. O dique tem uma extensão 4km de comprimento e
                     começa no bairro de Brasília Teimosa.</p>
-            </section>
-        </div>
+            </div>
+        </section>
         <div class="container">
             <div class="div_foto">
                 <figure class="foto_fig">
@@ -56,15 +60,13 @@
             </div>
             <div class="div_foto">
                 <figure class="foto_fig">
-                    <img src="praca/marco_zero.png"
-                        alt="Foto da Praça Marco Zero durante a noite" />
+                    <img src="praca/marco_zero.png" alt="Foto da Praça Marco Zero durante a noite" />
                     <figcaption>Foto do Marco Zero</figcaption>
                 </figure>
             </div>
             <div class="div_foto">
                 <figure class="foto_fig">
-                    <img src="praca/marco_zero2.png"
-                        alt="Foto da Praça Marco Zero durante a noite" />
+                    <img src="praca/marco_zero2.png" alt="Foto da Praça Marco Zero durante a noite" />
                     <figcaption>Foto do Marco Zero</figcaption>
                 </figure>
             </div>
@@ -76,41 +78,32 @@
                 </figure>
             </div>
         </div>
-        <div class="maps">
-            <section>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.375034872827!2d-34.87372322591725!3d-8.063174291964527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a48f03c145%3A0xef4ac38fd080a24!2sPra%C3%A7a%20do%20Marco%20Zero!5e0!3m2!1spt-BR!2sbr!4v1695179008491!5m2!1spt-BR!2sbr"
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
-        </div>
-
-        <footer class="footer">
-            <div class="container_footer">
-                <div class="rodape">
-                    <nav>
-                        <ul class="list">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Contato</a></li>
-                            <li><a href="#">Conheça Recife</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="img_rodape">
-                    <figure>
-                        <img src="/praca/visite-recife.gif" alt="Animação Recife é pra ficar!">
-                    </figure>
-                </div>
-                <div class="endereco">
-                    <address>
-                        Av. Alfredo Lisboa - <br>
-                        Recife - PE <br>
-                        50030-150
-                    </address>
-                </div>
-            </div>
-        </footer>
     </main>
+    <footer class="footer">
+        <div class="container_footer">
+            <div class="rodape">
+                <nav>
+                    <ul class="list">
+                        <li><a href="index.html">Praça do Marco Zero</a></li>
+                        <li><a href="paco_do_frevo.html">Paço do Frevo</a></li>
+                        <li><a href="capela_dourada.html">Capela Dourada</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="img_rodape">
+                <figure>
+                    <img src="/praca/visite-recife.gif" alt="Animação Recife é pra ficar!">
+                </figure>
+            </div>
+            <div class="endereco">
+                <address>
+                    Av. Alfredo Lisboa - <br>
+                    Recife - PE <br>
+                    50030-150
+                </address>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
