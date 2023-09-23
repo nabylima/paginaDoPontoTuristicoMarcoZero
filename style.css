@@ -10,7 +10,7 @@ body {
 .cabecalho {
     display: flex;
     flex-direction: column;
-    background-image: url(./praca/topo.jpg);
+    background-image: url(praca/topo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
